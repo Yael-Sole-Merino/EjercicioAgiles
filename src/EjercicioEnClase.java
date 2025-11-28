@@ -5,7 +5,7 @@ public class EjercicioEnClase {
 	public static void main(String [] args) {
 		int saldo, opcion;
 		String tirada [] = new String [3];
-		String figuras [] = {"CORAZON", "DIAMANTE", "TREBOL", "CAMPANA", "LIMON"};
+		String figuras [] = {"CORAZON", "DIAMANTE", "TREBOL", "CAMPANA", "LIMON","Alparcata"};
 		int multiplicadores [] = {50, 25, 10, 5, 2};
 		Scanner sc = new Scanner(System.in);
 		
@@ -55,7 +55,7 @@ public class EjercicioEnClase {
 					
 					break;
 				case 2://COBRAR
-					System.out.println("Cobras " + saldo + "€");
+					System.out.println("Cobras " + saldo + "ï¿½");
 					break;
 				default://ERROR
 					System.out.println("ERROR. Introduce un valor correcto");
